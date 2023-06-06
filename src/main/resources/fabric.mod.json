@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "benchmine",
+    "version": "${version}",
+    "name": "benchmine",
+    "description": "Benchmark minecraft",
+    "authors": [
+        "Mari_023"
+    ],
+    "contact": {
+        "sources": "https://github.com/Mari023/benchmine"
+    },
+    "license": "MIT",
+    "icon": "assets/benchmine/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "de.mari_023.ExampleMod"
+        ]
+    },
+    "mixins": [
+        "benchmine.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": "*",
+        "minecraft": "~1.19.4",
+        "fabric-api": "*"
+    }
+}
