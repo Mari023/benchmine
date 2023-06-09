@@ -5,7 +5,7 @@ buildscript {
 }
 
 plugins {
-    id("fabric-loom") version "1.0-SNAPSHOT"
+    id("fabric-loom") version "1.2-SNAPSHOT"
     id("io.github.juuxel.loom-quiltflower") version "1.10.0"
     id("com.diffplug.spotless") version "5.12.4"
     id("maven-publish")
